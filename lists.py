@@ -47,7 +47,7 @@ def main():
                     # Calculate and print the average of the marks
                     average = calc_average(marks_lists)
                     print("The average of the marks is ", average)
-                    break; 
+                    break
             else:
                 # if don't enter a number between -1 and 100
                 print("You must enter a number between -1 and 100")
