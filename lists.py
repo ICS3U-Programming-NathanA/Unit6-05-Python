@@ -4,6 +4,7 @@
 # Date: Dec.15, 2022
 # This program calculates the average of marks
 
+# function that calculates the average
 def calc_average(marks):
     # set sum to 0
     sum = 0
