@@ -38,14 +38,16 @@ def main():
             break
         else:
             # if marks is less than -1
-            if mark > -1 and mark < 100:
+            if mark >= -1 and mark <= 100:
                 # If the user entered -1, stop the loop
-                if mark == -1:
+                if mark != -1:
                     # Add the mark to the list
                     marks_lists.append(mark)
+                else:
                     # Calculate and print the average of the marks
                     average = calc_average(marks_lists)
-                    print("Average:", average)
+                    print("The average of the marks is ", average)
+                    break; 
             else:
                 # if don't enter a number between -1 and 100
                 print("You must enter a number between -1 and 100")
